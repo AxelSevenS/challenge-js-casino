@@ -111,6 +111,11 @@ function spinRoulette(bet) {
 
         updateMoney(availableMoney + result);
         canPlay = true;
+        if (availableMoney < 10) {
+            document.getElementById("money").style.color = "red";
+            document.getElementById("result").innerHTML = "C'est la fin du jeu !";
+            canPlay = false;
+        }
     });
 
 
