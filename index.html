@@ -11,25 +11,31 @@
     </head>
     <body>
         <div id="main">
-            <span id="money"></span>
             <div id="quiz-container" class="content">
+                <span id="money"></span>
 
-                <div id="slot-container">
-                    <div class="slot-wrapper">
-                        <img src="images/slot.png" class="slot-image" id="slot1" alt="">
+                <div id="slot-machine">
+                    <div id="slot-container">
+                        <div class="slot-wrapper">
+                            <img src="images/slot.png" class="slot-image" id="slot1" alt="">
+                        </div>
+                        <div class="slot-wrapper">
+                            <img src="images/slot.png" class="slot-image" id="slot2" alt="">
+                        </div>
+                        <div class="slot-wrapper">
+                            <img src="images/slot.png" class="slot-image" id="slot3" alt="">
+                        </div>
                     </div>
-                    <div class="slot-wrapper">
-                        <img src="images/slot.png" class="slot-image" id="slot2" alt="">
-                    </div>
-                    <div class="slot-wrapper">
-                        <img src="images/slot.png" class="slot-image" id="slot3" alt="">
-                    </div>
+                    <img src="images/slotmachine.png" id="slot-machine-image" alt="">
                 </div>
+
+                <div class="button-container">
+                    <button onclick="spinRoulette(10);">Parier 10</button>
+                    <button onclick="spinRoulette(50);">Parier 50!</button>
+                    <button onclick="spinRoulette(200);">Parier 200!!!</button>
+                </div>
+                <span id="result"></span>
             </div>
-            <button onclick="spinRoulette(10);">Parier 10</button>
-            <button onclick="spinRoulette(50);">Parier 50!</button>
-            <button onclick="spinRoulette(200);">Parier 200!!!</button>
-            <span id="result"></span>
         </div>
     </body>
 </html>
