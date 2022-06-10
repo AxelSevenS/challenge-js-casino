@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Le Quiz du Pif</title>
+        <script src="https://kit.fontawesome.com/c6d2413c18.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <span id="money"></span>
+            <div id="quiz-container" class="content">
+
+                <div id="slot-container">
+                    <div class="slot-wrapper">
+                        <img src="images/slot.png" class="slot-image" id="slot1" alt="">
+                    </div>
+                    <div class="slot-wrapper">
+                        <img src="images/slot.png" class="slot-image" id="slot2" alt="">
+                    </div>
+                    <div class="slot-wrapper">
+                        <img src="images/slot.png" class="slot-image" id="slot3" alt="">
+                    </div>
+                </div>
+            </div>
+            <button onclick="spinRoulette(10);">Parier 10</button>
+            <button onclick="spinRoulette(50);">Parier 50!</button>
+            <button onclick="spinRoulette(200);">Parier 200!!!</button>
+            <span id="result"></span>
+        </div>
+    </body>
+</html>

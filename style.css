@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #1d1d1d;
+}
+
+span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#slot-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+}
+
+.slot-wrapper {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.slot-image {
+    width: 100%;
+    height: auto;
+
+}
